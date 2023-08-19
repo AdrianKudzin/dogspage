@@ -1,0 +1,55 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.header__images {
+    max-width: 350px;
+    max-height: 400px;
+    margin: 0;
+}
+
+.body {
+    text-align: center;
+    background-color: #fff7ed;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    max-width: 1000px;
+    margin: 10px auto;
+    padding: 15px;
+}
+.header {
+    color: rgb(9, 9, 6);
+}
+
+.section {
+    box-shadow: 1px 1px 20px -3px #BFBFBF;
+    border-radius: 20px;
+}
+
+.section__header {
+    color: rgb(90, 90, 90);
+}
+
+.navigation__list {
+    list-style-type: none;
+    padding-right: 40px;
+}
+
+.navigation__listElement {
+    padding-bottom: 7px;
+}
+
+.darkMode {
+    background-color: rgb(137, 136, 136);
+}
+
+.header__button {
+    cursor: pointer;
+}

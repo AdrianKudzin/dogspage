@@ -1,0 +1,32 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+    box-sizing: inherit;
+}
+
+.navigation__link {
+    color: #152364;
+    text-decoration: none;
+}
+
+.navigation__link:visited {
+    color: #ffaa6d;
+}
+
+.navigation__link:focus {
+    outline: 2px solid currentColor;
+}
+
+.navigation__link:hover {
+    color: silver;
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.navigation__link:active {
+    color: rgb(44, 151, 151);
+}
